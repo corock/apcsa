@@ -1,0 +1,7 @@
+package assignments._01_primitive_types._01_why_programming_why_java._06_ascii_art;
+
+public class Art {
+    public static void main(String[] args) {
+        //your code goes here!
+    }
+}
