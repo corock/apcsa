@@ -8,5 +8,7 @@ public class Welcome {
         // two forward slashes
         // You can delete the comments or leave them in
         // Java ignores them anyway!
+        System.out.println("My name is CoRock.");
+        System.out.println("My favorite hobby is playing video games.");
     }
 }
