@@ -2,10 +2,10 @@ package assignments._01_primitive_types._02_variables_and_data_types._09_answeri
 
 public class Variables {
     public static void main(String[] args) {
-        String myName =
-        int luckyNumber =
-        double currentTemperature =
-        boolean isStudent =
+        String myName = "Karel the Dog";
+        int luckyNumber = 11;
+        double currentTemperature = 75.3;
+        boolean isStudent = true;
 
         System.out.println(myName);
         System.out.println(luckyNumber);
