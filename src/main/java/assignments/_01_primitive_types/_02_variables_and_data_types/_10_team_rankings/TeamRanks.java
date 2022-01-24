@@ -12,19 +12,35 @@ public class TeamRanks {
         String team8 = "Maryland";
         String team9 = "Wisconsin";
         String team10 = "Michigan";
-
         /*
          * Don't edit above this line.
          * Enter your code below this comment.
          */
 
+        String temp1 = team1;
+        String temp2 = team2;
+        String temp3 = team3;
+        String temp4 = team4;
+        String temp5 = team5;
+        String temp6 = team6;
+        String temp7 = team7;
+        String temp8 = team8;
+        String temp9 = team9;
+        String temp10 = team10;
+
+        team2 = temp6;
+        team3 = temp8;
+        team4 = temp10;
+        team5 = temp4;
+        team6 = temp5;
+        team8 = temp9;
+        team9 = temp3;
+        team10 = temp2;
 
         /*
          * Don't edit below this line.
          * Enter your code above this comment.
          */
-
-
         System.out.print("1. ");
         System.out.println(team1);
         System.out.print("2. ");
