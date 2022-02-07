@@ -8,6 +8,10 @@ import java.util.Scanner;
 public class MyAge {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        // Start here!
+        System.out.println("Please enter your currenet age: ");
+        int age = input.nextInt();
+        System.out.println("My current age is: " + age);
+        System.out.println("My age next year will be: " + (++age));
+        System.out.print("My current age is: " + (--age));
     }
 }
