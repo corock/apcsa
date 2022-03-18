@@ -1,7 +1,5 @@
 package assignments._09_inheritance._06_polymorphism._09_fun_with_solids;
 
-import assignments._09_inheritance._06_polymorphism._09_fun_with_solids.bak.Cube;
-
 public class SolidTester {
     public static void main(String[] args) {
         String name;
@@ -45,7 +43,7 @@ public class SolidTester {
                 " and surface area: " + surfaceArea + ".");
 
         // Cube constructor should take name then side length
-        assignments._09_inheritance._06_polymorphism._09_fun_with_solids.bak.Cube cube = new Cube("My cube", 4);
+        Cube cube = new Cube("My cube", 4);
         name = cube.getName();
         volume = round(cube.volume(), 2);
         surfaceArea = round(cube.surfaceArea(), 2);
