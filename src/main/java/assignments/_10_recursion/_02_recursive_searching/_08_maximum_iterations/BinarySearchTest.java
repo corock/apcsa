@@ -9,7 +9,15 @@ public class BinarySearchTest {
         // Use the helper code to generate arrays, calculate the max
         // iterations, and then find the actual iterations for a randomly
         // selected value.
+        int[] lengths = {100, 1_000, 10_000, 100_100};
 
+        for (int length : lengths) {
+            System.out.println("Array Size: " + length);
+            System.out.println("Max iterations: " + binaryMax(length));
+            binaryRec(generateArrayOfLength(length), new Random().nextInt(length), 0, length - 1);
+            System.out.println("Actual iterations: " + count);
+            System.out.println();
+        }
     }
 
     public static int binaryRec(int[] array, int target, int begin, int end) {
