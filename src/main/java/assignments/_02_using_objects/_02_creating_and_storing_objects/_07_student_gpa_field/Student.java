@@ -6,7 +6,7 @@ public class Student {
     private int gradeLevel;
 
     // Add GPA instance variable called gpa here.
-
+    private double gpa;
 
     /**
      * This is a constructor.  A constructor is a method
@@ -18,10 +18,11 @@ public class Student {
      * Check out StudentTester.java for an example of how to use
      * this constructor and how to add the gpa to the constructor.
      */
-    public Student(String fName, String lName, int grade) {
+    public Student(String fName, String lName, int grade, double studentGpa) {
         firstName = fName;
         lastName = lName;
         gradeLevel = grade;
+        gpa = studentGpa;
     }
 
     /**
