@@ -1,14 +1,14 @@
 package assignments._02_using_objects._02_creating_and_storing_objects._08_instance_variables_for_your_dog;
 
-
 public class Dog {
     private String breed;
 
     // Add an instance variable here for name.
+    private String name;
 
-
-    public Dog(String theBreed) {
+    public Dog(String theBreed, String theName) {
         breed = theBreed;
+        name = theName;
     }
 
     // This method should work after you add the
